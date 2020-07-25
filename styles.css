@@ -179,6 +179,8 @@ h2,
   margin-right: 30px;
 }
 .images ul {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* ПОРТФОЛИО  */
@@ -250,20 +252,21 @@ a {
   color: #2196f3;
 }
 /* FOOTER */
+.logo-footer, .logo-second{
+  padding-bottom: 20px;
+}
 
 .logo-second {
   font-size: 26px;
   color: #ffffff;
 }
 
-.footer-adress {
-  font-size: 14px;
-  color: #ffffff;
-  text-decoration: none;
-}
+
 .footer-nav {
   color: rgba(255, 255, 255, 0.6);
 }
+
+  
 .footer-text {
   text-transform: uppercase;
   color: #ffffff;
@@ -283,21 +286,43 @@ a {
   display: flex;
 }
 .footer-adress {
-  margin-left: 214px;
-}
-.footer-adress {
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: wheat;
+  margin-right: 30px;
+  margin-bottom: 60px;
+  
   margin-top: 60px;
+    margin-left: 214px;
   /* /* height: 31px; */
   width: 153px; */
   background-color: #2196f3;
 }
+
 .footer-messenger,
 .footer-end {
   margin-top: 72px;
 }
 .footer-end {
   background-color: turquoise;
+  width: 570px;
+  height: 86px;
+  margin-right: 216px;
 }
 .footer-messenger {
   background-color: tomato;
+  height: 80px;
+  width: 206px;
+  margin-right: 30px;
 }
+.footer-mess{
+  list-style-type: none;
+}
+.footer-text{
+  margin-bottom: 20px;
+}
+.messenger{
+  margin-right: 10px;
+  
+
