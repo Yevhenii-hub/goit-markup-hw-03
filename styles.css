@@ -1,0 +1,239 @@
+/* Основной цвет нашего проекта */
+:root {
+  --primary-color: #212121;
+}
+:root {
+  --gray-collor: #757575;
+}
+:root {
+  --white-collor: #ffffff;
+}
+
+/* ГЛАВНАЯ СТРАНИЦА */
+body {
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--primary-color);
+}
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #2196f3;
+}
+.logotyp {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  color: var(--primary-color);
+}
+.caption {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: #ffffff; поставить позже то не видно на странице*/
+}
+.btn {
+  background: #2196f3;
+  color: #ffffff;
+}
+.headline {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+.desc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* color: #ffffff;  применить по окончанию*/
+}
+.name-team {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+.subject {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+h2,
+.our-team {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+h2,
+.our-clients {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+/* ПОРТФОЛИО ПОЗИЦИОНИРОВАНИЕ  HEADER */
+.flex-header {
+  display: flex;
+}
+.list {
+  display: flex;
+}
+.site-nav .list {
+  margin-right: 50px;
+}
+/* ПОРТФОЛИО ПОЗИЦИОНИРОВАНИЕ  */
+.continer {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.flex-continier {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: brown;
+}
+.item {
+  width: 370px;
+  background-color: tomato;
+  margin-right: 30px;
+}
+
+/* ПОРТФОЛИО  */
+
+.images,
+p {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--gray-collor);
+}
+.button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  background: #f5f4fa;
+}
+.footer {
+}
+.main {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--primary-color);
+}
+.button:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.button:focus {
+  color: #f5f4fa;
+}
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+li, */
+
+/* HEADER */
+.header,
+a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav:hover {
+  color: #2196f3;
+}
+.nav {
+  color: var(--primary-color);
+}
+.telefon {
+  color: var(--gray-collor);
+}
+.telefon:hover {
+  color: #2196f3;
+}
+.email {
+  color: var(--gray-collor);
+}
+.email:hover {
+  color: #2196f3;
+}
+/* FOOTER */
+.footer {
+  background: #2f303a;
+}
+.footer-logo {
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.footer-adress {
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-nav {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-text {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.messenger {
+  color: #ffffff;
+}
