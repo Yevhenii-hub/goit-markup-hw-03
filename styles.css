@@ -30,7 +30,14 @@ p {
 a {
   text-decoration: none;
 }
-.logo {
+.logo-header {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #2196f3;
+}
+.logo-footer {
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -118,13 +125,41 @@ h2,
 /* ПОРТФОЛИО ПОЗИЦИОНИРОВАНИЕ  HEADER */
 .flex-header {
   display: flex;
+  align-items: center;
+}
+.flex-header li {
+  list-style-type: none;
 }
 .list {
   display: flex;
 }
 .site-nav .list {
+}
+.header-item {
+  /* background-color: violet; */
   margin-right: 50px;
 }
+.header-item:last-child {
+  margin-right: 0;
+}
+.header-item-second:last-child {
+  margin-right: 0;
+}
+.header-item-second {
+  /* background-color: yellowgreen; */
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+.auth-nav {
+  margin-left: 331px;
+}
+.logotyp {
+  margin-right: 85px;
+}
+.logo-header .logotyp {
+  padding: 25px 0;
+}
+
 /* ПОРТФОЛИО ПОЗИЦИОНИРОВАНИЕ  */
 .continer {
   width: 1230px;
@@ -142,6 +177,8 @@ h2,
   width: 370px;
   background-color: tomato;
   margin-right: 30px;
+}
+.images ul {
 }
 
 /* ПОРТФОЛИО  */
@@ -164,8 +201,7 @@ p {
   text-align: center;
   background: #f5f4fa;
 }
-.footer {
-}
+
 .main {
   font-family: Roboto;
   font-style: normal;
@@ -214,10 +250,8 @@ a {
   color: #2196f3;
 }
 /* FOOTER */
-.footer {
-  background: #2f303a;
-}
-.footer-logo {
+
+.logo-second {
   font-size: 26px;
   color: #ffffff;
 }
@@ -233,7 +267,37 @@ a {
 .footer-text {
   text-transform: uppercase;
   color: #ffffff;
+  margin: 0;
 }
 .messenger {
   color: #ffffff;
+}
+
+/* FOOTER ПОЗИЦИОНИРОВАНИЕ */
+.footer-content {
+  display: flex;
+  background: #2f303a;
+  height: 252px;
+}
+.footer-mess {
+  display: flex;
+}
+.footer-adress {
+  margin-left: 214px;
+}
+.footer-adress {
+  margin-top: 60px;
+  /* /* height: 31px; */
+  width: 153px; */
+  background-color: #2196f3;
+}
+.footer-messenger,
+.footer-end {
+  margin-top: 72px;
+}
+.footer-end {
+  background-color: turquoise;
+}
+.footer-messenger {
+  background-color: tomato;
 }
