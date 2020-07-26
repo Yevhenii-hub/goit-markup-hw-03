@@ -12,7 +12,7 @@
   </head>
   <body>
     <!--шапка страницы и навигация-->
-    <header class="header">
+    <header class="headerr">
       <div class="continer">
         <nav class="flex-header">
           <a class="header-logo" href="">
@@ -20,7 +20,9 @@
             ><span class="logotyp">studio</span>
           </a>
           <ul class="site-nav list">
-            <li class="header-item"><a href="" class="nav">Студиa</a></li>
+            <li class="header-item">
+              <a href="./index.html" class="nav">Студиa</a>
+            </li>
             <li class="header-item">
               <a href="./portfolio.html" class="nav">Портфолио</a>
             </li>
@@ -42,6 +44,7 @@
     </header>
     <!-- Основа сайта -->
     <main class="main">
+      <h1 hidden>Портфолио</h1>
       <div class="continer">
         <div class="flex-continier">
           <ul class="button-menu">
@@ -66,7 +69,7 @@
             <li class="item">
               <a class="item-links" href="">
                 <img src="./images/img001.jpg" alt="Баскетболисты" />
-                <h1>Технокряк</h1>
+                <h2>Технокряк</h2>
                 <p>Веб-сайт</p>
                 <p hidden>
                   Технокряк это современная площадка распространения
@@ -91,34 +94,46 @@
               </a>
             </li>
             <li class="item">
-              <img src="./images/img003.jpg" alt="Наушники" />
-              <h2>Проект Prime</h2>
-              <p>Маркетинг</p>
+              <a class="item-links" href="">
+                <img src="./images/img003.jpg" alt="Наушники" />
+                <h2>Проект Prime</h2>
+                <p>Маркетинг</p>
+              </a>
             </li>
             <li class="item">
-              <img src="./images/img004.jpg" alt="Коробки" />
-              <h2>Проект Boxes</h2>
-              <p>Приложение</p>
+              <a class="item-links" href="">
+                <img src="./images/img004.jpg" alt="Коробки" />
+                <h2>Проект Boxes</h2>
+                <p>Приложение</p>
+              </a>
             </li>
             <li class="item">
-              <img src="./images/img005.jpg" alt="Монитор" />
-              <h2>Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <a class="item-links" href="">
+                <img src="./images/img005.jpg" alt="Монитор" />
+                <h2>Inspiration has no Borders</h2>
+                <p>Веб-сайт</p>
+              </a>
             </li>
             <li class="item">
-              <img src="./images/img006.jpg" alt="Книжка" />
-              <h2>Издание Limited Edition</h2>
-              <p>Дизайн</p>
+              <a class="item-links" href="">
+                <img src="./images/img006.jpg" alt="Книжка" />
+                <h2>Издание Limited Edition</h2>
+                <p>Дизайн</p>
+              </a>
             </li>
             <li class="item">
-              <img src="./images/img007.jpg" alt="Бирка" />
-              <h2>Проект LAB</h2>
-              <p>Маркетинг</p>
+              <a class="item-links" href="">
+                <img src="./images/img007.jpg" alt="Бирка" />
+                <h2>Проект LAB</h2>
+                <p>Маркетинг</p>
+              </a>
             </li>
             <li class="item">
-              <img src="./images/img008.jpg" alt="Ноутбук" />
-              <h2>Growing Business</h2>
-              <p>Приложение</p>
+              <a class="item-links" href="">
+                <img src="./images/img008.jpg" alt="Ноутбук" />
+                <h2>Growing Business</h2>
+                <p>Приложение</p>
+              </a>
             </li>
           </ul>
         </div>
@@ -129,11 +144,17 @@
       <div class="continer">
         <div class="footer-content">
           <div class="footer-adress">
-            <a href="">
-              <span class="logo-footer">Wed</span
-              ><span class="logo-second">studio</span></a
-            >
             <address>
+              <a href="">
+                <span class="logo-footer">Wed</span
+                ><span class="logo-second">Studio</span></a
+              >
+              <br />
+              <!-- 
+              <p class="footer-adress footer-nav">
+                г. Киев, пр-т Леси Украинки, 26
+              </p> -->
+
               <a
                 href="https://goo.gl/maps/FN8on8wzA6SfPzr29"
                 target="_blank"
@@ -141,13 +162,13 @@
                 class="footer-adress footer-nav"
               >
                 г. Киев, пр-т Леси Украинки, 26</a
-              >
-              <br />
-              <a href="tel:+380961111111" class="footer-nav column"
+              ><br />
+
+              <a class="footer-nav column" href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
               <br />
-              <a href="mailto:info@devstudio.com" class="footer-nav"
+              <a class="footer-nav" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
               <br />
