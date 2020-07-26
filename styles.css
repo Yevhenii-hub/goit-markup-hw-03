@@ -434,4 +434,9 @@ font-size: 14px;
 .messenger{
   margin-right: 10px;
   
+/* INDEX.HTML ПОЗИЦИОНИРОВАНИЕ MAIN */
+.section .service{
+  width: 1600px;
+height: 600px;
 
+}
