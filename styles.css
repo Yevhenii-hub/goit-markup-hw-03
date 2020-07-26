@@ -14,6 +14,14 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+/* body {
+  color: var(--primary-text-color);
+	background-color: var(--primary-bg-color);
+	font-family: Roboto, sans-serif;
+	letter-spacing: 0.03em;
+} */
+
+
 h1 {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -29,6 +37,10 @@ p {
 }
 a {
   text-decoration: none;
+}
+
+ul{
+  list-style: none;
 }
 .logo-header {
   font-family: Raleway, sans-serif;
@@ -133,8 +145,25 @@ h2,
 .list {
   display: flex;
 }
-.site-nav .list {
+.site-nav.list {
+ margin-top: 0px;
+ margin-bottom: 0px;
+padding-left: 0px;
 }
+
+.site-nav .list {
+	display: flex;
+	padding-top: 31px;
+	padding-bottom: 31px;
+
+	color: var(--primary-text-color);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+
+
 .header-item {
   /* background-color: violet; */
   margin-right: 50px;
@@ -151,7 +180,8 @@ h2,
   margin-right: 50px;
 }
 .auth-nav {
-  margin-left: 331px;
+  margin-left: auto;
+  padding-left: 0px;
 }
 .logotyp {
   margin-right: 85px;
@@ -162,7 +192,7 @@ h2,
 
 /* ПОРТФОЛИО ПОЗИЦИОНИРОВАНИЕ  */
 .continer {
-  width: 1230px;
+  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -175,20 +205,27 @@ h2,
 .images{
   display: flex;
   flex-wrap: wrap;
-  /* margin-right: 110px; */
-  margin-bottom: 30px;
+
+  margin: 0px;
+  padding-top: 50px;
+  padding-bottom: 94px;
+  padding-left: 0;
    
   list-style-type: none; 
 }
-.item:nth-child(3n){
-  margin-right: 0;
-}
-.item {
-  width: 370px;
+
+
+.images .item {
+  width: calc((100% - 60px) / 3);
   background-color: tomato;
   margin-right: 30px;
   margin-bottom: 30px;
 }
+
+.item:nth-child(3n){
+  margin-right: 0;
+}
+
 .images ul {
   display: flex;
   flex-wrap: wrap;
@@ -196,8 +233,7 @@ h2,
 
 /* ПОРТФОЛИО  */
 
-.images,
-p {
+.images p {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -205,6 +241,7 @@ p {
   line-height: 30px;
   color: var(--gray-collor);
 }
+
 .button {
   font-family: Roboto;
   font-style: normal;
@@ -213,8 +250,21 @@ p {
   line-height: 26px;
   text-align: center;
   background: #f5f4fa;
+}
 
-  
+.button-menu {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  margin: 0px;
+}
+
+.button-item {
+  margin-right: 8px;
+}
+
+.button-item:last-child {
+  margin-right: 0px;
 }
 
 .main {
@@ -225,10 +275,12 @@ p {
   line-height: 26px;
   color: var(--primary-color);
 }
+
 .button:hover {
   color: #ffffff;
   background-color: #2196f3;
 }
+
 .button:focus {
   color: #f5f4fa;
 }
@@ -250,6 +302,9 @@ a {
   color: #2196f3;
 }
 .nav {
+  display: block;
+  padding-top: 32px;
+ padding-bottom: 32px;
   color: var(--primary-color);
 }
 .telefon {
