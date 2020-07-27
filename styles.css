@@ -84,6 +84,32 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-color);
+
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.headline p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.text-aggregate {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.text-aggregate:last-child {
+  margin-right: 0;
 }
 .desc {
   font-family: Roboto;
@@ -93,7 +119,9 @@ ul {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
   /* color: #ffffff;  применить по окончанию*/
+  text-align: center;
 }
 .name-team {
   font-family: Roboto;
@@ -112,6 +140,10 @@ ul {
   line-height: 42px;
   letter-spacing: 0.03em;
   color: var(--primary-color);
+  text-align: center;
+
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 h2,
 .our-team {
@@ -418,41 +450,44 @@ li, */
 }
 .messenger {
   margin-right: 10px;
-
-  /* INDEX.HTML ПОЗИЦИОНИРОВАНИЕ MAIN */
-  .section-service {
-    background-color: #ff4331;
-  }
 }
-.caption {
-  padding-bottom: 200px;
+
+/* INDEX.HTML ПОЗИЦИОНИРОВАНИЕ MAIN */
+.section.service {
   padding-top: 200px;
+  padding-bottom: 200px;
+
   text-align: center;
-  background-color: #757575;
-  width: 1600px;
-  height: 600px;
-  position: absolute;
-  color: var(--white-collor);
+  background-color: gray;
 }
 .btn-centr {
-  /* background: #2196f3;
-  color: #ffffff;
-  position: absolute;
-width: 136px;
-height: 30px;
-left: 732px;
-top: 440px;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 187% */
+  color: var(--white-collor);
+}
+.section .elements {
+  width: calc((100% - 90px) / 4);
+}
+.aggregate {
+  display: flex;
+  margin-top: 90px;
+}
 
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em; */
+.bacground {
+  display: flex;
+  justify-content: center;
 
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+}
+.applications {
+  display: flex;
+}
 
+.applications .content-java {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+}
