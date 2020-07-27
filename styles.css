@@ -131,6 +131,7 @@ ul {
   line-height: 19px;
   letter-spacing: 0.03em;
   color: var(--primary-color);
+  text-align: center;
 }
 .subject {
   font-family: Roboto;
@@ -154,6 +155,7 @@ h2,
   line-height: 42px;
   letter-spacing: 0.03em;
   color: var(--primary-color);
+  text-align: center;
 }
 h2,
 .our-clients {
@@ -488,6 +490,36 @@ li, */
 }
 
 .applications .content-java {
-  width: calc((100% - 60px) / 3);
+  width: calc((100% - 60px) / 2);
   margin-right: 30px;
+}
+/* OUR_TEAM */
+.continer .team {
+}
+.workers {
+  display: flex;
+}
+.workers p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  color: #757575;
+}
+.continer .people {
+  width: calc((100% - 90px) / 3);
+  margin-right: 30px;
+}
+.people ul {
+  display: flex;
+  justify-content: space-around;
+}
+.people li {
+  margin-right: 10px;
 }
