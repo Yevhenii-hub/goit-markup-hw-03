@@ -166,7 +166,13 @@ h2,
   line-height: 42px;
   letter-spacing: 0.03em;
   color: var(--primary-color);
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
+  
+  
+
+
 .images h2 {
   font-family: Roboto;
   font-style: normal;
@@ -399,6 +405,9 @@ li, */
 .messenger {
   color: #ffffff;
 }
+.team-hover:hover {
+  background: #f5f4fa;
+}
 
 /* FOOTER ПОЗИЦИОНИРОВАНИЕ */
 .footer-content {
@@ -522,4 +531,23 @@ li, */
 }
 .people li {
   margin-right: 10px;
+}
+
+
+.regular-clients {
+  display: flex;
+}
+.regular-clients{
+  margin-bottom: 94px;
+}
+.svg{
+  width: calc((100% - 150px ) / 6));
+  margin-right: 30px;
+}
+.svg:last-child{
+  margin-right: 0;
+}
+.footer{
+
+  
 }
