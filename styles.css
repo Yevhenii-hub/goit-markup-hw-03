@@ -387,8 +387,9 @@ li, */
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
- 
-}
+  display:inline-block;
+  padding-top: 60px;
+ }
 
 .logo-second {
   font-size: 26px;
@@ -397,11 +398,8 @@ li, */
 
 .footer-nav {
   display: block;
-  
   color: rgba(255, 255, 255, 0.6);
- 
 }
-
 
 
 .footer-text {
@@ -419,56 +417,23 @@ li, */
 /* FOOTER ПОЗИЦИОНИРОВАНИЕ */
 .footer-content {
   display: flex;
-  justify-content: space-between;
-  background: #2f303a;
   height: 252px;
-}
-.footer-mess {
-  display: flex;
-}
-.footer-adress {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  /* line-height: 24px; */
-
-  color: #ffffff;
-  text-decoration: none;
-  /* background-color: wheat; */
-  margin-right: 30px;
-  margin-bottom: 60px;  */
-
- padding-top: 60px;
+  align-items: baseline;
+  }
+  .calc{
+    width: calc((100% - 60px) / 3);
+    /* padding-top: 60px; */
+  }
+  .footer-mess{
+    display: flex;
+  }
+  .top{
   margin-top: 20px;
-
+  color:var(--white-collor);
 }
 
-.footer-messenger,
-.footer-end {
-  margin-top: 72px;
-}
-.footer-end {
-  /* background-color: turquoise; */
 
- 
-  margin-bottom: 94px;
-}
-.footer-messenger {
-  /* background-color: tomato; */
 
-  margin-right: 30px;
-  margin-bottom: 100px;
-}
-.footer-mess {
-  list-style-type: none;
-}
-.footer-text {
-  margin-bottom: 20px;
-}
-.messenger {
-  margin-right: 10px;
-}
 
 /* INDEX.HTML ПОЗИЦИОНИРОВАНИЕ MAIN */
 .section.service {
