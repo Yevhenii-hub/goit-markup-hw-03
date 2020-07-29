@@ -12,7 +12,9 @@
 /* ГЛАВНАЯ СТРАНИЦА */
 body {
   font-family: Roboto, sans-serif;
+  
 }
+
 
 /* body {
   color: var(--primary-text-color);
@@ -29,6 +31,7 @@ h1 {
   line-height: 36px;
   color: var(--primary-color);
 }
+
 p {
   font-style: normal;
   font-weight: normal;
@@ -69,7 +72,7 @@ ul {
   /* or 136% */
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* color: #ffffff; поставить позже то не видно на странице*/
+  color: var(--white-collor);
 }
 .btn {
   background: #2196f3;
@@ -142,11 +145,14 @@ ul {
   line-height: 42px;
   letter-spacing: 0.03em;
   color: var(--primary-color);
-  text-align: center;
+  text-align:;
 
   margin-top: 94px;
   margin-bottom: 50px;
 }
+
+
+
 h2,
 .our-team {
   font-family: Roboto;
@@ -157,8 +163,11 @@ h2,
   letter-spacing: 0.03em;
   color: var(--primary-color);
   text-align: center;
+  display:block;
+  padding-top: 94px;
+  
 }
-h2,
+h2
 .our-clients {
   font-family: Roboto;
   font-style: normal;
@@ -167,8 +176,9 @@ h2,
   line-height: 42px;
   letter-spacing: 0.03em;
   color: var(--primary-color);
-  margin-top: 94px;
-  margin-bottom: 50px;
+  /* margin-top: 94px;
+  margin-bottom: 50px; */
+  
 }
 
 
@@ -259,6 +269,7 @@ line-height: 31px;
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
+
 }
 
 .images  {
@@ -266,11 +277,21 @@ line-height: 31px;
   flex-wrap: wrap;
 
   margin: 0px;
-  padding-top: 50px;
-  padding-bottom: 94px;
+  margin-top: 50px;
+  margin-bottom: 94px;
   padding-left: 0;
 
   list-style-type: none;
+}
+.border-first{
+  border: 1px solid #EEEEEE;
+box-sizing: border-box;
+box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+.border{
+  background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
 }
 
 .images .item {
@@ -281,6 +302,9 @@ line-height: 31px;
 
 .item:nth-child(3n) {
   margin-right: 0;
+}
+.item-title{
+  margin-top: 20px;
 }
 
 .images ul {
@@ -307,13 +331,14 @@ line-height: 31px;
   line-height: 26px;
   text-align: center;
   background: #f5f4fa;
+  border: none;
 }
 
 .button-menu {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
-  margin: 0px;
+  margin-top: 50px;
+  /* margin: 0px; */
 }
 
 .button-item {
@@ -331,7 +356,9 @@ line-height: 31px;
   font-size: 16px;
   line-height: 26px;
   color: var(--primary-color);
+
 }
+
 
 .button:hover {
   color: #ffffff;
@@ -359,22 +386,22 @@ li, */
 }
 .nav {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
   color: var(--primary-color);
 }
 .telefon {
   color: var(--gray-collor);
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .telefon:hover {
   color: #2196f3;
 }
 .email {
   color: var(--gray-collor);
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .email:hover {
   color: #2196f3;
@@ -399,6 +426,10 @@ li, */
 .footer-nav {
   display: block;
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
+}
+.footer-nav:last-child{
+  margin-bottom: 0;
 }
 
 
@@ -429,6 +460,7 @@ li, */
   }
   .top{
   margin-top: 20px;
+  margin-bottom: 9px;
   color:var(--white-collor);
 }
 
@@ -437,8 +469,11 @@ li, */
 
 /* INDEX.HTML ПОЗИЦИОНИРОВАНИЕ MAIN */
 .section.service {
+  height: 600px;
   padding-top: 200px;
-  padding-bottom: 200px;
+  text-align: center;
+  
+  
 
   text-align: center;
   background-color: gray;
@@ -447,6 +482,7 @@ li, */
   width: 200px;
   height: 50px;
   background: #2196f3;
+  border: none;
 
   color: var(--white-collor);
 }
@@ -480,11 +516,16 @@ li, */
   margin-right: 30px;
 }
 /* OUR_TEAM */
-.continer .team {
-}
+
 .workers {
   display: flex;
 }
+.team{
+   background-color: #F5F4FA;
+   height: 702px;
+    
+}
+
 .workers p {
   font-family: Roboto;
   font-style: normal;
@@ -517,6 +558,7 @@ li, */
 .regular-clients{
   margin-bottom: 94px;
 }
+
 .svg{
   width: calc((100% - 150px ) / 6));
   margin-right: 30px;
