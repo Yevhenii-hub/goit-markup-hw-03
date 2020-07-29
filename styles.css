@@ -103,6 +103,7 @@ ul {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+ 
 
   letter-spacing: 0.03em;
 
@@ -395,6 +396,8 @@ li, */
 }
 
 .footer-nav {
+  display: block;
+  
   color: rgba(255, 255, 255, 0.6);
  
 }
@@ -434,11 +437,11 @@ li, */
   text-decoration: none;
   /* background-color: wheat; */
   margin-right: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 60px;  */
 
-  margin-top: 60px;
+ padding-top: 60px;
+  margin-top: 20px;
 
-  /* background-color: #2196f3; */
 }
 
 .footer-messenger,
@@ -448,7 +451,7 @@ li, */
 .footer-end {
   /* background-color: turquoise; */
 
-  margin-right: 216px;
+ 
   margin-bottom: 94px;
 }
 .footer-messenger {
@@ -484,6 +487,11 @@ li, */
 }
 .section .elements {
   width: calc((100% - 90px) / 4);
+}
+.detals{
+  width: 270px;
+  margin-right: 30px;
+/* height: 75px; */
 }
 .aggregate {
   display: flex;
