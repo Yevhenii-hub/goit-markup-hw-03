@@ -12,6 +12,7 @@
 /* ГЛАВНАЯ СТРАНИЦА */
 body {
   font-family: Roboto, sans-serif;
+  margin: 0;
   
 }
 
@@ -74,8 +75,8 @@ ul {
   text-transform: uppercase;
   color: var(--white-collor);
 
-  margin-top: 0;
-  padding-top: 200px;
+  
+  
   
  
   
@@ -155,8 +156,8 @@ ul {
   color: var(--primary-color);
   text-align:;
 
-   margin-top: 94px;
-  margin-bottom: 50px;
+   margin-top: 0;
+  
 }
 
 
@@ -172,8 +173,8 @@ h2,
   color: var(--primary-color);
   text-align: center;
   display:block;
-  margin-top: 94px;
-  margin-bottom: 50px;
+  /* margin-top: 94px;
+  margin-bottom: 50px; */
   /* margin-top: 0;
   margin-bottom: 0; */
   
@@ -291,8 +292,6 @@ line-height: 31px;
   flex-wrap: wrap;
 
   margin: 0px;
-  margin-top: 50px;
-  margin-bottom: 94px;
   padding-left: 0;
 
   list-style-type: none;
@@ -327,6 +326,10 @@ box-sizing: border-box;
 }
 
 /* ПОРТФОЛИО  */
+.flex-continier{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .images p {
   font-family: Roboto, sans-serif;
@@ -353,9 +356,9 @@ box-sizing: border-box;
 .button-menu {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   /* margin-top: 0; */
-  margin-bottom: 0;
+  margin-bottom: 50px;
   padding-left: 0;
 }
 
@@ -404,22 +407,22 @@ li, */
 }
 .nav {
   display: block;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-color);
 }
 .telefon {
   color: var(--gray-collor);
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .telefon:hover {
   color: #2196f3;
 }
 .email {
   color: var(--gray-collor);
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .email:hover {
   color: #2196f3;
@@ -499,9 +502,9 @@ border: none;
 /* INDEX.HTML ПОЗИЦИОНИРОВАНИЕ MAIN */
 .section.service {
   
-  /* margin-top: 200px;
-  margin-bottom: 280px; */
-  height: 600px;
+  padding-top: 200px;
+  padding-bottom: 280px; 
+  
   
   text-align: center;
 
@@ -518,6 +521,11 @@ border: none;
 }
 .section .elements {
   width: calc((100% - 90px) / 4);
+  
+}
+.elements{
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .detals{
   width: 270px;
@@ -526,7 +534,8 @@ border: none;
 }
 .aggregate {
   display: flex;
-  margin-top: 90px;
+  margin-top: 0;
+  /* margin-top: 90px; */
   /* margin-top: 0; */
   margin-bottom: 0;
 }
@@ -539,6 +548,10 @@ border: none;
   height: 120px;
   background-color: #f5f4fa;
 }
+
+.section.java{
+  padding-bottom: 94px;
+}
 .applications {
   display: flex;
 }
@@ -548,17 +561,25 @@ border: none;
   margin-right: 30px;
 }
 /* OUR_TEAM */
+.our-people.team{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .workers {
   display: flex;
 }
 .team{
    background-color: #F5F4FA;
-   height: 702px;
+  
     
 }
+.our-team.perfect{
+  margin-bottom: 50px;
+}
 .perfect{
-  padding-top: 94px;
+  margin-top: 0;
+
 }
 
 .workers p {
@@ -585,8 +606,14 @@ border: none;
 .people li {
   margin-right: 10px;
 }
+.regular{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
-
+.our-clients.centr{
+  margin-top: 0;
+}
 .regular-clients {
   display: flex;
   margin-bottom: 94px;
@@ -605,5 +632,6 @@ border: none;
 }
 .footer{
   background: #2F303A;
+ 
 
 }
